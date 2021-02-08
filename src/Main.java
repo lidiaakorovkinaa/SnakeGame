@@ -8,13 +8,12 @@ public class Main extends JFrame {
 
         setTitle("Змейка");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        setSize(320,345);
+        setSize(420,420);
         setLocation(400,400);
-
         add(new GameField());
-
         setResizable(false);
         setVisible(true);
+
 
 
     }
